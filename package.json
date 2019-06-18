@@ -1,0 +1,27 @@
+{
+  "name": "webcomponent-stakejs-preact",
+  "version": "1.0.0",
+  "description": "Creating webcomponent with stakejs and preact",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amit Naik",
+  "license": "MIT",
+  "dependencies": {
+    "@skatejs/renderer-preact": "^0.2.5",
+    "preact": "^8.2.7",
+    "skatejs": "^5.1.1"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "prettier": "^1.10.2",
+    "prettier-eslint": "^8.8.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.6"
+  }
+}
