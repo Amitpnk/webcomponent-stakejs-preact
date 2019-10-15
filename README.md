@@ -1,1 +1,1 @@
-# webcomponent-stakejs-preact
+# webcomponent-skatejs-preact
